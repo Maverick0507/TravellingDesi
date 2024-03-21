@@ -1,0 +1,41 @@
+.Contact {
+    padding-top: 8rem;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+
+.Form {
+    margin-top: 2rem;
+}
+form textarea
+{
+    outline: none;
+    padding-left: 10px;
+}
+.Form button
+{
+    padding: 10px;
+    border: none;
+}
+.Form-img
+{
+    height: 50vh;
+    width: 40vw;
+    margin-top: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+@media (max-width:820px) {
+    .Form-img
+    {
+        display: none;
+    }
+
+  }

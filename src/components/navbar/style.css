@@ -1,0 +1,123 @@
+.Navbar {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border: 1px solid grey;
+    transition: transform 0.2s ease-out;
+    display: inline block;
+}
+
+.mobile {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar--hidden {
+    transform: translateY(-100%);
+}
+
+.logo {
+    width: 40%;
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 9;
+}
+
+.nav-items {
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+}
+
+.items {
+    cursor: pointer;
+    font-weight: 400;
+    color: black;
+}
+
+.items:hover {
+    color: grey;
+}
+
+.contact {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+.close {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.hamburger {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sign-up {
+    padding: 0.5rem 1rem;
+    background-color: #232323;
+    color: white;
+    border: 1px solid #232323;
+}
+
+.sign-up:hover {
+    color: #232323;
+    background-color: white;
+    transition: 200ms ease-in;
+}
+
+.link 
+{
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .mobile {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        top: -1000%;
+        left: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background-color: white;
+    }
+
+    .active {
+        top: 90%;
+        transition: 900ms ease-in-out;
+    }
+}

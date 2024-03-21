@@ -1,0 +1,92 @@
+
+.slides {
+    width: 100%;
+    height: 100vh;
+}
+
+.Cimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.data {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   padding-top: 5rem;
+}
+.data h1
+{
+    font-weight: 800;
+    color: white;
+    padding-top: 3rem;
+}
+.data p
+{
+    padding-top: 3rem;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.data button
+{
+color: white;
+padding: 1rem 2rem;
+margin-top: 3rem;
+background-color: #232323;
+}
+.data button:hover
+{
+    transform: scale(1.1);
+    background-color: #232323;
+    color: white;
+    transition: 300ms ease-in;
+}
+
+
+/* media quries */
+@media screen and (max-width: 820px) {
+    /* CSS styles would go here */
+    .main
+    {
+        height: 100%;
+    }
+   .slides
+   {
+     height: 100%;
+   }
+   .data button 
+   {
+    padding: 1rem;
+   }
+   .Cimg
+   {
+    height: 40vh;
+   }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    /* CSS styles would go here */
+    .main
+    {
+        height: 100%;
+    }
+   .slides
+   {
+     height: 60vh;
+   }
+   .Cimg
+   {
+    height: 60vh;
+   }
+}
+
+

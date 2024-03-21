@@ -1,0 +1,111 @@
+.SignUpDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.SignUpform {
+  width: 40%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 1rem;
+}
+
+input {
+  height: 2.5rem;
+  outline: none;
+  padding: 1rem;
+}
+
+input:focus {
+  border: #E77355 2px solid;
+}
+
+::placeholder {
+  color: #E77355;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #E77355;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #E77355;
+}
+
+.submitBtn {
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  border: 1px #232323 solid;
+  background-color: #232323;
+  color: white;
+  width: 100%;
+}
+.formBtn
+{
+  margin-bottom: 20px;
+}
+
+.submitBtn:hover {
+  background-color: white;
+  color: #232323;
+  transition: 150ms ease-in;
+}
+
+.signUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 1rem;
+}
+.google
+{
+  background-color: white;
+  border-radius: 20%;
+  padding: 0.1rem;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+@media (max-width:820px) {
+  .SignUpDiv {
+    padding-top: 20%;
+  }
+  
+  .SignUpform {
+    width: 70%;
+    height: 40%;
+    background-color: white;
+ 
+  }
+}
+
+@media (max-width:500px) {
+  .SignUpDiv {
+    padding-top: 20%;
+  }
+  
+  .SignUpform {
+    width: 70%;
+    height: auto;
+    background-color: white;
+ 
+  }
+}

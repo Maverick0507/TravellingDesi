@@ -1,0 +1,119 @@
+#main {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.profile_card_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.profile_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 2rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
+    background-color: white;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 0px 12px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 0px 12px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 0px 12px -2px rgba(0, 0, 0, 0.75);
+}
+
+.profile_data h4 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.8rem;
+}
+
+.package_data h4 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.8rem;
+}
+
+.package_data h3 {
+    color: #FF8869;
+    text-transform: uppercase;
+}
+
+
+.package_data {
+    height: auto;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    box-shadow: 3px 0px 12px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 0px 12px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 0px 12px -2px rgba(0, 0, 0, 0.75);
+}
+
+.package_data span {
+    color: #FF8869;
+    text-transform: uppercase;
+}
+
+.signOut_btn button {
+    background-color: #232323;
+    color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+}
+
+.signOut_btn button:hover {
+    border: 2px solid #FF8869;
+    background-color: #FF8869;
+    transition: 200ms;
+    padding: 0.6rem 2rem;
+
+}
+.DeleteBtn
+{
+    background-color: #232323;
+    color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+}
+.DeleteBtn:hover {
+    border: 2px solid #FF8869;
+    background-color: red;
+    transition: 200ms;
+    padding: 0.6rem 2rem;
+
+}
+
+
+
+@media (max-width:820px) {
+ 
+    .profile_card {
+       
+        width: 100%;
+      
+    }
+    .package_data {
+        height: auto;
+        width: 100%;
+      
+    }
+  }
